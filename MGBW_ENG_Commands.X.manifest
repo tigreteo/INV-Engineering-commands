@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="MGBW_ENG_Commands" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{ed06946a-9e76-4747-9038-6439ffeeb2ee}" progid="MGBW_ENG_Commands.StandardAddInServer" threadingModel="Both" name="MGBW_ENG_Commands.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="MGBW_ENG_Commands.dll" hashalg="SHA1"></file>
+
+</assembly>

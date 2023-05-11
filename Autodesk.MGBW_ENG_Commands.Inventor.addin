@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 25.0-->
+  <ClassId>{ed06946a-9e76-4747-9038-6439ffeeb2ee}</ClassId>
+  <ClientId>{ed06946a-9e76-4747-9038-6439ffeeb2ee}</ClientId>
+  <DisplayName>MGBW_ENG_Commands</DisplayName>
+  <Description>MGBW_ENG_Commands</Description>
+  <Assembly>MGBW_ENG_Commands.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>24..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>
