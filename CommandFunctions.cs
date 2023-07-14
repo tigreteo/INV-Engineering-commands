@@ -151,8 +151,7 @@ namespace MGBW_ENG_Commands
             folderNum = folderNum * 100;
             string folderName = folderNum.ToString() + "-" + (folderNum + 99).ToString();
             //find proper folder for the prefix or create folder
-            //\\mgbwvlt\DATA2\CAD_Files\Upholstery\Frame Drawings
-            string folderLoc = System.IO.Path.Combine(@"\\mgbwvlt\DATA2\CAD_Files\Upholstery\Frame Drawings", folderName, prefix);
+            string folderLoc = System.IO.Path.Combine(@"filePath\Frame Drawings", folderName, prefix);
             //string fileLoc = System.IO.Path.Combine(folderLoc, fileName);
             //does the folder exist?
             if (!System.IO.File.Exists(folderLoc))
@@ -427,7 +426,7 @@ namespace MGBW_ENG_Commands
 
             //open model file
             Document oDocument = InvApp.Documents.Open(modelLoc, true);
-            //todo do I need to break code here if open faile??!!
+            //todo do I need to break code here if open fail??!!
             oDocument.Activate();
 
             //good place to update and save the modelfile
@@ -577,7 +576,7 @@ namespace MGBW_ENG_Commands
             //****maybe try get the default template first, if null then get the template folder and add constant name
             //if assumed name and template location doesnt work, then request feedback from user*****
 
-            //"C:\\Users\\tylerhenderson\\Desktop\\OpenWork\\Templates\\en-US\\English\\Fractional.idw"
+            
             //get default location instead of static
             string defaultDraw = m_inventorApp.DesignProjectManager.ActiveDesignProject.TemplatesPath;
             defaultDraw = System.IO.Path.Combine(defaultDraw, "Fractional.idw");
